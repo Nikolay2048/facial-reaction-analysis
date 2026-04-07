@@ -1,11 +1,14 @@
 Stimulus
  - Artemis - https://artemisdataset.org/
- - OASIS (Open Affective Standardized Image Set)
+ - OASIS (Open Affective Standardized Image Set) - https://visionlab.is/stimuli-emotionally-eliciting-stimuli/
 
 Faces:
  - fer2013 - https://www.kaggle.com/datasets/msambare/fer2013
  - CK+ Dataset https://www.kaggle.com/datasets/davilsena/ckdataset
  - KDEF & AKDEF - https://kdef.se/  http://kaggle.com/datasets/ankur133047/modified-kdef-facial-expression-dataset?resource=download
+Faces Videos:
+ - Amigos - https://torcheeg.readthedocs.io/en/v1.0.10/generated/torcheeg.datasets.AMIGOSDataset.htm
+
 
 Reaction
  - MAHNOB-HCI - ?
