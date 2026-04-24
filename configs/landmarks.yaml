@@ -1,0 +1,5 @@
+mediapipe:
+  max_num_faces: 1
+  refine_landmarks: true
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5

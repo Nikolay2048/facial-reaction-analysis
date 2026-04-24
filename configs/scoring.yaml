@@ -1,0 +1,14 @@
+score_ranges:
+  low: [0.0, 0.2]
+  moderate: [0.2, 0.5]
+  high: [0.5, 1.0]
+
+components:
+  amplitude:
+    tolerance: 0.15
+  latency:
+    tolerance_ms: 250
+  symmetry:
+    tolerance: 0.10
+  recovery:
+    tolerance: 0.20

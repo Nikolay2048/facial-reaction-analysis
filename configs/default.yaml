@@ -1,0 +1,13 @@
+video:
+  baseline_window_ms: 1000
+  interpolation_step_ms: 40
+
+quality:
+  min_quality_score: 0.5
+  max_missing_ratio: 0.2
+
+scoring:
+  amplitude_weight: 0.35
+  latency_weight: 0.25
+  symmetry_weight: 0.20
+  recovery_weight: 0.20

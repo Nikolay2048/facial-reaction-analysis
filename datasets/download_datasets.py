@@ -37,3 +37,23 @@ print("Path to dataset files:", path)
 shutil.copytree(path, target_dir, dirs_exist_ok=True)
 
 print("Dataset copied to:", target_dir)
+
+
+path = kagglehub.dataset_download("steubk/wikiart")
+
+print("Path to dataset files:", path)
+
+shutil.copytree(path, target_dir+'/wiki_art/', dirs_exist_ok=True)
+
+print("Dataset copied to:", target_dir)
+
+
+
+# Download latest version
+path = kagglehub.dataset_download("ngothienphu/affectnet")
+
+print("Path to dataset files:", path)
+
+shutil.copytree(path, target_dir+'/affectnet/', dirs_exist_ok=True)
+
+print("Dataset copied to:", target_dir)

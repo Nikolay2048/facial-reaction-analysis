@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facial-reaction-analysis"
+version = "0.1.0"
+description = "Intelligent computer vision module for estimating deviation of facial reaction to visual stimuli"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.8",
+    "mediapipe>=0.10",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+fra = "fra.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

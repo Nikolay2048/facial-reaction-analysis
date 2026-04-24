@@ -1,0 +1,60 @@
+{
+  "stimulus_category": "generic_positive",
+  "timestamps_ms": [0, 200, 400, 600, 800, 1000],
+  "expected_features": [
+    {
+      "eye_openness": 0.30,
+      "eyebrow_raise": 0.08,
+      "mouth_openness": 0.12,
+      "lip_corner_movement": 0.03,
+      "facial_asymmetry": 0.02,
+      "response_intensity": 0.12
+    },
+    {
+      "eye_openness": 0.31,
+      "eyebrow_raise": 0.10,
+      "mouth_openness": 0.15,
+      "lip_corner_movement": 0.05,
+      "facial_asymmetry": 0.02,
+      "response_intensity": 0.18
+    },
+    {
+      "eye_openness": 0.33,
+      "eyebrow_raise": 0.13,
+      "mouth_openness": 0.18,
+      "lip_corner_movement": 0.07,
+      "facial_asymmetry": 0.03,
+      "response_intensity": 0.24
+    },
+    {
+      "eye_openness": 0.32,
+      "eyebrow_raise": 0.11,
+      "mouth_openness": 0.16,
+      "lip_corner_movement": 0.06,
+      "facial_asymmetry": 0.03,
+      "response_intensity": 0.20
+    },
+    {
+      "eye_openness": 0.31,
+      "eyebrow_raise": 0.09,
+      "mouth_openness": 0.14,
+      "lip_corner_movement": 0.04,
+      "facial_asymmetry": 0.02,
+      "response_intensity": 0.16
+    },
+    {
+      "eye_openness": 0.30,
+      "eyebrow_raise": 0.08,
+      "mouth_openness": 0.12,
+      "lip_corner_movement": 0.03,
+      "facial_asymmetry": 0.02,
+      "response_intensity": 0.12
+    }
+  ],
+  "thresholds": {
+    "amplitude_tolerance": 0.15,
+    "latency_tolerance_ms": 250,
+    "symmetry_tolerance": 0.10,
+    "recovery_tolerance": 0.20
+  }
+}
